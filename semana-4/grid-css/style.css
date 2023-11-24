@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eaeaea;
+}
+
+.grid-contenido{
+    padding-top: 20px;
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    grid-template-areas: 
+    "card-1 card-1 card-2 card-3"
+    "card-4 card-5 card-5 card-3";
+    grid-gap: 20px;
+}
+
+.card-1{
+    grid-area: card-1;
+    background-color: hsl(263, 55%, 52%);
+    padding: 20px;
+    border-radius: 15px;
+    color: #fff;
+    
+}
+
+.card-2{
+    grid-area: card-2;
+    background-color: hsl(217, 19%, 35%);
+    padding: 20px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.card-3{
+    grid-area: card-3;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+
+.card-4{
+    grid-area: card-4;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.card-5{
+    grid-area: card-5;
+    background-color: hsl(219, 29%, 14%);
+    padding: 20px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.img-card img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.info-card{
+    display: flex;
+    
+}
+
+.detail-info{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.detail-info h2{
+    font-size: 16px;
+    padding-bottom: 4px;
+}
+
+.detail-info span{
+    font-size: 13px;
+}
+
+.parrafo-card{
+    padding-top: 15px;
+    
+}
+
+.parrafo-card h3{
+    padding-bottom: 15px;
+}
+
+.parrafo-card span{
+    font-size: 14px;
+    color: rgba(232, 232, 232, 0.777);
+}
+
+.parrafo-sss{
+    color: #00000086;
+    font-size: 13px;
+    
+}
+
+
+
+

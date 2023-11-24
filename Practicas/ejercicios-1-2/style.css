@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 1000px;
+    border: solid;
+}
+
+/*
+.content{
+    display: flex;
+}
+.card{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+}*/
+
+.ejercicio-2{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.cards{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: brown;
+    border: solid;
+}
+
+
+.card-2{
+    
+    background-color: rgb(0, 255, 81);
+}
+
+.card-4{
+    
+    background-color: rgb(0, 255, 81);
+}
+
+.card-6{
+    
+    background-color: rgb(0, 255, 81);
+}
+
+.card-8{
+    
+    background-color: rgb(0, 255, 81);
+}
+
+
+
